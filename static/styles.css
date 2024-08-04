@@ -1,0 +1,53 @@
+/* Size for brand */
+nav .navbar-brand
+{
+    font-size: xx-large;
+}
+
+/* Colors for brand */
+nav .navbar-brand .white
+{
+    color: #ffffff;
+}
+
+/* Colors for item */
+nav .nav-item .white
+{
+    color: #ffffff;
+}
+
+/* Colors for sheet */
+.sheet {
+    color: #333;
+    text-align: right;
+    font-size: 60px
+}
+
+.form-control {
+    color: #333;
+    text-align: left;
+    font-size: 25px
+}
+
+body{
+    overflow-x :hidden;
+    }
+
+
+.notes{
+    text-align: left;
+    font-size: 30px
+}
+
+.spacing{
+    margin-bottom: 2rem;
+    list-style-type: none
+}
+
+.larger{
+    font-size: 35px
+}
+
+.question{
+    font-size: 200px
+}
