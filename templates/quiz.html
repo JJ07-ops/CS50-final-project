@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quiz
+{% endblock %}
+
+{% block main %}
+<p>
+    Play this quiz! A random hiragana/katakana will be displayed. Enter the
+    romaji (pronunciation) for the hiragana/katakana displayed!
+</p>
+<p>
+    Green indicates that the answer is correct.
+    Red indicates the answer is wrong. Click the next button to move on to the next question.
+</p>
+    <form method="post" action="/quiz">
+        <input type="submit" value="START QUIZ" name="action1"/>
+    </form>
+
+{% endblock %}

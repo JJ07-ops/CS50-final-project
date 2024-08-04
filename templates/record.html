@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Record
+{% endblock %}
+
+{% block main %}
+<table class="table">
+    <thead>
+        <tr>
+            <th>ACTION</th>
+            <th>DATE AND TIME (GMT)</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for list in lists %}
+
+            <tr>
+                <td>{{list.type}}</td>
+                <td>{{list.datetime}}</td>
+            </tr>
+
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

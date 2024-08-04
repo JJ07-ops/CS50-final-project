@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+<nav>
+    <ul>
+        <li class="spacing">
+            <a href="/hiragana" class="larger">Hiragana</a>
+            <p>Hiragana is a type of phonetic lettering system that is used to represent Japanese words. </p>
+        </li>
+        <li class="spacing">
+            <a href="/katakana" class="larger">Katakana</a>
+            <p>Katakana is a type of phonetic lettering system that is used to represent foreign borrowed words.</p>
+        </li>
+        <li class="spacing">
+            <a href="/quiz" class="larger">Quiz</a>
+            <p>Play a quiz where you type out the romaji (pronunciation) of 20 random Hiragana/Katakana.</p>
+        </li>
+        <li class="spacing">
+            <a href="/record" class="larger">Record</a>
+            <p>View when have you logged in and logged out!</p>
+        </li>
+    </ul>
+</nav>
+{% endblock %}
